@@ -1,0 +1,299 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: grey;
+    z-index: 100;
+}
+.title{
+    text-align: left;
+    position: absolute;
+    left: 20px;
+    padding:0;
+    margin: 14px 30px 0px;
+    color: rgb(244, 162, 97);
+}
+nav{
+    position: absolute;
+    right: 0;
+    margin: 20px 50px 0px;
+}
+a{
+    color: rgb(244, 162, 97);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+}
+.jumbotron{
+    display: flex;
+    margin-top: 160px;
+    justify-content: space-around;
+    margin-bottom: 80px;
+}
+
+.jumbotron-text p{
+    font-style: italic;
+}
+.jumbotron-text{
+    color: rgb(155, 138, 138);
+    font-size: 30px;
+}
+.jumbotron-img{
+    font-size: 45px;
+}
+footer{
+    background-image: linear-gradient(rgb(63, 63, 63) ,rgb(254, 255, 255));
+}
+.main-footer{
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+.left-footer{
+    display:center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.right-footer{
+    margin-left: auto;
+    margin-right:40px;
+}
+.center-footer{
+    margin-left: 20px;
+    margin-right:20px;
+}
+.info-left{
+    color:BLACK;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+}
+#product {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.items {
+    background-color:   rgb(64, 63, 66);
+    margin-bottom: 30px;
+    margin-left: 10px;
+    text-align: center;
+    margin-right: 10px;
+    width: 400px;
+    height: 500px;
+}
+.items h1 {
+    color: aqua;
+}
+.items p{
+    color: red;
+}
+button{
+    margin: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: yellow;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+.modal-container{
+    background-color: rgba(0, 0, 0, 0.404);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+.modal{
+    position: relative;
+    width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+}
+.modal h3{
+    padding:0;
+    margin:0;
+}
+.modal span{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    cursor: pointer;
+}
+.content-about{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.content{
+    background-color: gray;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+}
+.content p {
+    font-size: 18px;
+}
+.halal{
+    display: flex;
+    width: 50px;
+    align-items: left;
+}
+
+.about-text{
+    font-size: 20px;
+}
+.img-about{
+    width: 430px;
+    border-radius: 20px;
+}
+
+.jumbotron-text-container{
+    display: flex;
+    align-items: center;
+}
+.illustration-img {
+    margin: 0px;
+    width: 800px;
+  }
+  
+  .contact {
+    display: inline-block;
+    margin: 10px 30px;
+    text-align: center;
+  }
+  
+  .profile-contact-img {
+    width: 200px;
+  }
+  
+  .form-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .icon {
+    margin-right: 6px;
+  }
+  
+  .fa-user,
+  .fa-map-marker-alt,
+  .fa-envelope-open,
+  .fa-comment {
+    font-size: 27px;
+  }
+  
+  .form-label {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+  
+  .form-input {
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    outline: none;
+    height: 48px;
+    margin-bottom: 15px;
+    padding: 0;
+  }
+  
+  .input-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-style: none;
+    outline: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    height: 100%;
+  }
+  
+  .textarea-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .form-textarea {
+    position: relative;
+  }
+  
+  .textarea {
+    border-style: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    margin-top: 10px;
+  }
+  
+  .submit {
+    border-style: none;
+    border-radius: 25px;
+    color: aliceblue;
+    background-color: rgb(38, 70, 83);
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .input-item:focus + .form-label {
+    top: -5px;
+    left: -2px;
+    font-size: 10px;
+  }
+  
+  .textarea:focus + .form-label {
+    top: -5px;
+    left: -2px;
+    font-size: 10px;
+  }
+  
+  .input-item:not(:placeholder-shown).input-item:not(:focus) + .form-label {
+    top: -2px;
+    left: -2px;
+    font-size: 10px;
+    color: rgb(138, 130, 130);
+  }
+  
+  .textarea:not(:placeholder-shown).textarea:not(:focus) + .form-label {
+    top: -2px;
+    left: -2px;
+    font-size: 10px;
+    color: rgb(138, 130, 130);
+  }
+.map{
+    border-radius: 10px;
+    border: 10px 10px solid black;
+    box-shadow: 5px 5px 5px white;
+}
+.location{
+    display: flex;
+    justify-content: center;
+    margin:90px;
+    margin-bottom: 60px;
+}
+body{
+    background-image: linear-gradient(white, gray);
+    margin: 0;
+}
